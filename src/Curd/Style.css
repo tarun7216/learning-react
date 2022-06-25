@@ -1,0 +1,27 @@
+ th,td {
+    border: 1px solid;
+    border-style: groove;
+    
+    margin-top: 10px;
+
+}
+table {
+    border: 1px solid;
+    margin: 5px;
+}
+.Box {
+    border: 2px solid;
+    max-width: 70%;
+    display: flexbox;
+    justify-content: center;
+    margin: 10px;
+}
+.Box1 {
+    border: 2px solid;
+    border-color: rgb(54, 54, 71);
+    max-width: 80%;
+    display: flexbox;
+    justify-content: center;
+    margin: 10px;
+
+}

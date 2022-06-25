@@ -1,0 +1,79 @@
+
+
+.Nav {
+    background-color: aqua;
+    text-align: center;
+}
+
+label {
+    cursor: default;
+    margin-left: 10px;
+    color: red;
+  }
+  .Card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    
+    
+  }
+  .Card img {
+    width: 30%;
+    height: 50%;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .Card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .Card button:hover {
+    opacity: 0.7;
+  }
+  .p1{
+    text-align: center;
+    text-size-adjust: auto;
+    text-transform: capitalize;
+  }
+  .grid-container {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+  
+  }
+  .btn1 {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgb(223, 185, 137);
+    border-color: rgb(223, 185, 137);
+    box-shadow: 2px;
+  }
+  .btn1 :hover {
+   color:rgb(226, 168, 98);
+  }
+  .grid-item img {
+    width: 5%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  }
+  .btn2 {
+    width: 40%;
+    display: flex;
+    flex: content;
+  }
